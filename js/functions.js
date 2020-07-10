@@ -621,6 +621,10 @@ var SEMICOLON = SEMICOLON || {};
 				return false;
 			});
 
+			$('#manu a[href]').on('click', function(event) {
+				$('.order-1').trigger('click');
+			});
+
 			$( '.menu-container:not(.mobile-primary-menu)' ).css({ 'display': '' });
 			if( $body.hasClass('device-xl') || $body.hasClass('device-lg') ) {
 				primaryMenu.find('.mobile-primary-menu').removeClass('d-block');
