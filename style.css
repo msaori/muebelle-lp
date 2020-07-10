@@ -2725,7 +2725,7 @@ html[xmlns] .slider-wrap {
 	flex-wrap: wrap;
 }
 
-@media (min-width: 480px) {
+@media (min-width: 300px) {
 
 	#header-wrap {
 		position: fixed;
